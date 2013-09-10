@@ -49,7 +49,7 @@ group :development, :test do
   gem 'sqlite3'
 end
 
-group :test do
+group :production do
   gem 'rspec'
   gem 'pg'
 end
