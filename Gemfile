@@ -47,9 +47,11 @@ end
 group :development, :test do
   gem 'rspec-rails'
   gem 'sqlite3'
+  gem 'webrat'
 end
 
 group :production do
   gem 'rspec'
   gem 'pg'
+  gem 'webrat'
 end
